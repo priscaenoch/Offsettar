@@ -1,0 +1,25 @@
+{
+  "name": "@offsetta/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "dotenv": "^16.0.0",
+    "@stellar/stellar-sdk": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/cors": "^2.8.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
